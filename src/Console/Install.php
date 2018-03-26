@@ -124,9 +124,9 @@ class Install extends Command {
                              [ '--connection' => $this->option( 'connection' ) ] );
                 $this->call( 'geonames:feature-class',
                              [ '--connection' => $this->option( 'connection' ) ] );
-                $this->call( 'geonames:alternate-name',
+                /*$this->call( 'geonames:alternate-name',
                              [ '--country'    => $this->option( 'country' ),
-                               '--connection' => $this->option( 'connection' ) ] );
+                               '--connection' => $this->option( 'connection' ) ] );*/
                 $this->call( 'geonames:geoname',
                              [ '--connection' => $this->option( 'connection' ) ] );
             endif;

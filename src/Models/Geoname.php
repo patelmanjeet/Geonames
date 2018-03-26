@@ -61,7 +61,7 @@ class Geoname extends Model {
      * geonames_admin_2_codes table.
      * @var array
      */
-    protected $countryCodesThatUseAdmin2Codes = ['US'];
+    protected $countryCodesThatUseAdmin2Codes = [];
 
 
     /**
