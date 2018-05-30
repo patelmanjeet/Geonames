@@ -113,7 +113,7 @@ class Geoname extends Model {
      */
     protected function thisCountryUsesAdmin2Codes ( string $countryCode ): bool {
 		
-		return false;
+		return true;
 		
         if ( in_array( $countryCode, $this->countryCodesThatUseAdmin2Codes ) ) {
             return true;
